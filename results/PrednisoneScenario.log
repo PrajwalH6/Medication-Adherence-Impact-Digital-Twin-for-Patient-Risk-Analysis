@@ -1,0 +1,287 @@
+2026-03-27 19:32 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2026-03-27 19:32 <INFO>  [0s] Configuring patient 
+2026-03-27 19:32 <INFO>  [0s] No patient pain susceptibility set 0.000000 being used. 
+2026-03-27 19:32 <INFO>  [0s] No patient sweat susceptibility set 0.000000 being used. 
+2026-03-27 19:32 <INFO>  [0s] No patient sleep amount set 8.000000 hr being used. 
+2026-03-27 19:32 <INFO>  [0s] Patient lean body mass computed and set to 60.917455 kg. 
+2026-03-27 19:32 <INFO>  [0s] Patient muscle mass computed and set to 29.610510 kg. 
+2026-03-27 19:32 <INFO>  [0s] Patient body density computed and set to 1.050524 g/cm^3. 
+2026-03-27 19:32 <INFO>  [0s] No patient heart rate maximum set. Using a computed value of 177.200000 bpm. 
+2026-03-27 19:32 <INFO>  [0s] No patient heart rate minimum set. Using a default value of 0.001bpm. 
+2026-03-27 19:32 <INFO>  [0s] Patient's blood type antigen has not been set. Defaulting to  0.000000 
+2026-03-27 19:32 <INFO>  [0s] No patient blood volume baseline set. Using a computed value of 5517.734438 mL. 
+2026-03-27 19:32 <INFO>  [0s] No patient right lung ratio set. Using the standard value of 0.525000 . 
+2026-03-27 19:32 <INFO>  [0s] No patient total lung capacity set. Using a computed value of 6.168856 L. 
+2026-03-27 19:32 <INFO>  [0s] No patient functional residual capacity set. Using a computed value of 2.313321 L. 
+2026-03-27 19:32 <INFO>  [0s] No patient residual volume set. Using a computed value of 1.542214 L. 
+2026-03-27 19:32 <INFO>  [0s] Patient tidal volume computed and set to 0.539775 L. 
+2026-03-27 19:32 <INFO>  [0s] Patient vital capacity computed and set to 4.626642 L. 
+2026-03-27 19:32 <INFO>  [0s] Patient expiratory reserve volume computed and set to 0.771107 L. 
+2026-03-27 19:32 <INFO>  [0s] Patient inspiratory reserve volume computed and set to 3.315760 L. 
+2026-03-27 19:32 <INFO>  [0s] Patient inspiratory capacity computed and set to 3.855535 L. 
+2026-03-27 19:32 <INFO>  [0s] No patient alveoli surface area set. Using a computed value of 69.987024 m^2. 
+2026-03-27 19:32 <INFO>  [0s] No patient skin surface area set. Using a computed value of 1.968118 m^2. 
+2026-03-27 19:32 <INFO>  [0s] No patient basal metabolic rate set. Using a computed value of << kcal/day. 
+2026-03-27 19:32 <INFO>  [0s] No patient maximum work rate set. Using a computed value of 1000.800000 Watts. 
+2026-03-27 19:32 <INFO>  [0s] Resetting Substances 
+2026-03-27 19:32 <INFO>  [0s] Initializing Configuration 
+2026-03-27 19:32 <INFO>  [0s] Merging Provided Configuration 
+2026-03-27 19:32 <INFO>  [0s] Merging OnDisk Configuration 
+2026-03-27 19:32 <INFO>  [0s] Creating Circuits and Compartments 
+2026-03-27 19:32 <INFO>  [0s] Setting Up Cardiovascular 
+2026-03-27 19:32 <INFO>  [0s] Setting up Cerebral 
+2026-03-27 19:32 <INFO>  [0s] Setting Up Renal 
+2026-03-27 19:32 <INFO>  [0s] Setting Up Tissue 
+2026-03-27 19:32 <INFO>  [0s] Setting Up Gastrointestinal 
+2026-03-27 19:32 <INFO>  [0s] Setting Up External Temperature 
+2026-03-27 19:32 <INFO>  [0s] Setting Up Internal Temperature 
+2026-03-27 19:32 <INFO>  [0s] Setting Up Respiratory 
+2026-03-27 19:32 <INFO>  [0s] Setting Up Anesthesia Machine 
+2026-03-27 19:32 <INFO>  [0s] Setting Up Inhaler 
+2026-03-27 19:32 <INFO>  [0s] Setting Up Nasal Cannula 
+2026-03-27 19:32 <INFO>  [0s] Setting Up MechanicalVentilator 
+2026-03-27 19:32 <INFO>  [0s] Initializing Substances 
+2026-03-27 19:32 <INFO>  [0s] Initializing Systems 
+2026-03-27 19:32 <INFO>  [0s] Tuning to patient parameters : HeartRate(bpm):72 Systolic(mmHg):114 Diastolic(mmHg):73.5 
+2026-03-27 19:32 <INFO>  [0s] We are stable at 87.32 
+2026-03-27 19:32 <INFO>  [0s] Tuning paths, Current values : HeartRate(bpm):72 Systolic(mmHg):116.349 Diastolic(mmHg):72.0088 Cardiac Output(mL/min):5816.64 Mean CVP(mmHg):3.96792 MAP(mmHg):95.3059 BloodVolume(mL): 5534.99 
+2026-03-27 19:32 <INFO>  [0s] We are stable at 121.78 
+2026-03-27 19:32 <INFO>  [0s] Tuning paths, Current values : HeartRate(bpm):72 Systolic(mmHg):113.733 Diastolic(mmHg):74.5224 Cardiac Output(mL/min):5826.18 Mean CVP(mmHg):3.97174 MAP(mmHg):95.4387 BloodVolume(mL): 5534.41 
+2026-03-27 19:32 <INFO>  [0s] We are stable at 140.24 
+2026-03-27 19:32 <INFO>  [0s] Successfully tuned circuit. Final values : HeartRate(bpm):72 Systolic(mmHg):114.338 Diastolic(mmHg):73.941 Cardiac Output(mL/min):5825.18 Mean CVP(mmHg):3.97172 MAP(mmHg):95.4204 BloodVolume(mL): 5534.1 
+2026-03-27 19:32 <INFO>  [0s] Converging to a steady state 
+2026-03-27 19:32 <INFO>  [10s] Converging System... it took 2.25s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [20s] Converging System... it took 1.99s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [25s] 25.3s - Resetting the target for TidalVolume to 0.598118, the last target value was 0.593081 
+2026-03-27 19:33 <INFO>  [25s] 25.3s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0482255, the last target value was 0.0491612 
+2026-03-27 19:33 <INFO>  [28s] 28.88s - Resetting the target for TidalVolume to 0.602051, the last target value was 0.598118 
+2026-03-27 19:33 <INFO>  [28s] 28.88s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0474424, the last target value was 0.0482255 
+2026-03-27 19:33 <INFO>  [30s] Converging System... it took 2.26s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [32s] 32.46s - Resetting the target for TidalVolume to 0.604977, the last target value was 0.602051 
+2026-03-27 19:33 <INFO>  [32s] 32.46s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0467891, the last target value was 0.0474424 
+2026-03-27 19:33 <INFO>  [36s] 36.04s - Resetting the target for TidalVolume to 0.606989, the last target value was 0.604977 
+2026-03-27 19:33 <INFO>  [36s] 36.04s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0462217, the last target value was 0.0467891 
+2026-03-27 19:33 <INFO>  [39s] 39.62s - Resetting the target for EndTidalCarbonDioxideFraction to 0.045636, the last target value was 0.0462217 
+2026-03-27 19:33 <INFO>  [40s] Converging System... it took 2.23s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [40s] 40.7s - Resetting the target for OxygenSaturation to 0.979208, the last target value was 0.976766 
+2026-03-27 19:33 <INFO>  [43s] 43.2s - Resetting the target for TidalVolume to 0.604172, the last target value was 0.606989 
+2026-03-27 19:33 <INFO>  [43s] 43.2s - Resetting the target for EndTidalCarbonDioxideFraction to 0.045043, the last target value was 0.045636 
+2026-03-27 19:33 <INFO>  [46s] 46.78s - Resetting the target for TidalVolume to 0.60105, the last target value was 0.604172 
+2026-03-27 19:33 <INFO>  [46s] 46.78s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0445028, the last target value was 0.045043 
+2026-03-27 19:33 <INFO>  [47s] 47.46s - Resetting the target for SkinTemperatureLeftArm to 32.2261, the last target value was 32.5517 
+2026-03-27 19:33 <INFO>  [47s] 47.46s - Resetting the target for SkinTemperatureRightArm to 32.2261, the last target value was 32.5517 
+2026-03-27 19:33 <INFO>  [48s] 48.68s - Resetting the target for SkinTemperatureTorso to 33.7744, the last target value was 34.1158 
+2026-03-27 19:33 <INFO>  [49s] 49.32s - Resetting the target for SkinTemperatureHead to 32.1399, the last target value was 32.4647 
+2026-03-27 19:33 <INFO>  [50s] Converging System... it took 2.3s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [50s] 50.36s - Resetting the target for TidalVolume to 0.597511, the last target value was 0.60105 
+2026-03-27 19:33 <INFO>  [50s] 50.36s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0440191, the last target value was 0.0445028 
+2026-03-27 19:33 <INFO>  [53s] 53.94s - Resetting the target for TidalVolume to 0.59369, the last target value was 0.597511 
+2026-03-27 19:33 <INFO>  [53s] 53.94s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0435532, the last target value was 0.0440191 
+2026-03-27 19:33 <INFO>  [57s] 57.52s - Resetting the target for TidalVolume to 0.589674, the last target value was 0.59369 
+2026-03-27 19:33 <INFO>  [57s] 57.52s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0431072, the last target value was 0.0435532 
+2026-03-27 19:33 <INFO>  [1m0s] Converging System... it took 1.86s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [1m0s] 60.26s - Resetting the target for SkinTemperatureLeftLeg to 32.8776, the last target value was 33.2098 
+2026-03-27 19:33 <INFO>  [1m0s] 60.26s - Resetting the target for SkinTemperatureRightLeg to 32.8776, the last target value was 33.2098 
+2026-03-27 19:33 <INFO>  [1m1s] 61.1s - Resetting the target for TidalVolume to 0.585522, the last target value was 0.589674 
+2026-03-27 19:33 <INFO>  [1m1s] 61.1s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0427155, the last target value was 0.0431072 
+2026-03-27 19:33 <INFO>  [1m4s] 64.68s - Resetting the target for TidalVolume to 0.581272, the last target value was 0.585522 
+2026-03-27 19:33 <INFO>  [1m4s] 64.68s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0423683, the last target value was 0.0427155 
+2026-03-27 19:33 <INFO>  [1m8s] 68.26s - Resetting the target for TidalVolume to 0.576953, the last target value was 0.581272 
+2026-03-27 19:33 <INFO>  [1m8s] 68.26s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0420288, the last target value was 0.0423683 
+2026-03-27 19:33 <INFO>  [1m10s] Converging System... it took 1.88s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [1m10s] 70.8s - Resetting the target for OxygenSaturation to 0.981658, the last target value was 0.979208 
+2026-03-27 19:33 <INFO>  [1m11s] 71.84s - Resetting the target for TidalVolume to 0.572598, the last target value was 0.576953 
+2026-03-27 19:33 <INFO>  [1m11s] 71.84s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0417083, the last target value was 0.0420288 
+2026-03-27 19:33 <INFO>  [1m15s] 75.2s - Resetting the target for SkinTemperatureTorso to 33.4364, the last target value was 33.7744 
+2026-03-27 19:33 <INFO>  [1m15s] 75.44s - Resetting the target for TidalVolume to 0.570064, the last target value was 0.572598 
+2026-03-27 19:33 <INFO>  [1m15s] 75.44s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0414394, the last target value was 0.0417083 
+2026-03-27 19:33 <INFO>  [1m19s] 79.06s - Resetting the target for TidalVolume to 0.565584, the last target value was 0.570064 
+2026-03-27 19:33 <INFO>  [1m19s] 79.06s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0412097, the last target value was 0.0414394 
+2026-03-27 19:33 <INFO>  [1m20s] Converging System... it took 1.79s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [1m22s] 82.7s - Resetting the target for TidalVolume to 0.561116, the last target value was 0.565584 
+2026-03-27 19:33 <INFO>  [1m22s] 82.7s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0409882, the last target value was 0.0412097 
+2026-03-27 19:33 <INFO>  [1m23s] 83.24s - Resetting the target for SkinTemperatureLeftArm to 31.9038, the last target value was 32.2261 
+2026-03-27 19:33 <INFO>  [1m23s] 83.24s - Resetting the target for SkinTemperatureRightArm to 31.9038, the last target value was 32.2261 
+2026-03-27 19:33 <INFO>  [1m26s] 86.04s - Resetting the target for SkinTemperatureHead to 31.8185, the last target value was 32.1399 
+2026-03-27 19:33 <INFO>  [1m26s] 86.36s - Resetting the target for TidalVolume to 0.556673, the last target value was 0.561116 
+2026-03-27 19:33 <INFO>  [1m26s] 86.36s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0408074, the last target value was 0.0409882 
+2026-03-27 19:33 <INFO>  [1m30s] 90.04s - Resetting the target for TidalVolume to 0.552269, the last target value was 0.556673 
+2026-03-27 19:33 <INFO>  [1m30s] 90.04s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0406752, the last target value was 0.0408074 
+2026-03-27 19:33 <INFO>  [1m30s] Converging System... it took 1.79s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [1m33s] 93.76s - Resetting the target for TidalVolume to 0.541113, the last target value was 0.552269 
+2026-03-27 19:33 <INFO>  [1m33s] 93.76s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0405291, the last target value was 0.0406752 
+2026-03-27 19:33 <INFO>  [1m37s] 97.5s - Resetting the target for TidalVolume to 0.543679, the last target value was 0.541113 
+2026-03-27 19:33 <INFO>  [1m39s] 99.98s - Resetting the target for SkinTemperatureLeftLeg to 32.5488, the last target value was 32.8776 
+2026-03-27 19:33 <INFO>  [1m39s] 99.98s - Resetting the target for SkinTemperatureRightLeg to 32.5488, the last target value was 32.8776 
+2026-03-27 19:33 <INFO>  [1m40s] Converging System... it took 1.81s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [1m41s] 101.26s - Resetting the target for TidalVolume to 0.539473, the last target value was 0.543679 
+2026-03-27 19:33 <INFO>  [1m41s] 101.26s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0403477, the last target value was 0.0405291 
+2026-03-27 19:33 <INFO>  [1m45s] 105.04s - Resetting the target for TidalVolume to 0.535362, the last target value was 0.539473 
+2026-03-27 19:33 <INFO>  [1m46s] 106.36s - Resetting the target for SkinTemperatureTorso to 33.102, the last target value was 33.4364 
+2026-03-27 19:33 <INFO>  [1m48s] 108.84s - Resetting the target for TidalVolume to 0.531351, the last target value was 0.535362 
+2026-03-27 19:33 <INFO>  [1m48s] 108.84s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0401621, the last target value was 0.0403477 
+2026-03-27 19:33 <INFO>  [1m50s] Converging System... it took 1.84s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [1m51s] 111.84s - Resetting the target for HeartRate to 70.3125, the last target value was 72 
+2026-03-27 19:33 <INFO>  [1m51s] 111.84s - Resetting the target for CardiacOutput to 5646.92, the last target value was 5795.04 
+2026-03-27 19:33 <INFO>  [1m52s] 112.66s - Resetting the target for TidalVolume to 0.527447, the last target value was 0.531351 
+2026-03-27 19:33 <INFO>  [1m52s] 112.68s - Resetting the target for HeartRate to 72, the last target value was 70.3125 
+2026-03-27 19:33 <INFO>  [1m52s] 112.68s - Resetting the target for CardiacOutput to 5782.29, the last target value was 5646.92 
+2026-03-27 19:33 <INFO>  [1m56s] 116.5s - Resetting the target for TidalVolume to 0.523654, the last target value was 0.527447 
+2026-03-27 19:33 <INFO>  [1m56s] 116.5s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0400212, the last target value was 0.0401621 
+2026-03-27 19:33 <INFO>  [2m0s] Converging System... it took 1.88s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [2m0s] 120.36s - Resetting the target for TidalVolume to 0.519974, the last target value was 0.523654 
+2026-03-27 19:33 <INFO>  [2m4s] 124.24s - Resetting the target for TidalVolume to 0.516413, the last target value was 0.519974 
+2026-03-27 19:33 <INFO>  [2m8s] 128.14s - Resetting the target for TidalVolume to 0.512976, the last target value was 0.516413 
+2026-03-27 19:33 <INFO>  [2m10s] Converging System... it took 1.79s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [2m10s] 130.28s - Resetting the target for SkinTemperatureLeftArm to 31.5847, the last target value was 31.9038 
+2026-03-27 19:33 <INFO>  [2m10s] 130.28s - Resetting the target for SkinTemperatureRightArm to 31.5847, the last target value was 31.9038 
+2026-03-27 19:33 <INFO>  [2m12s] 132.06s - Resetting the target for TidalVolume to 0.509669, the last target value was 0.512976 
+2026-03-27 19:33 <INFO>  [2m12s] 132.06s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0399209, the last target value was 0.0400212 
+2026-03-27 19:33 <INFO>  [2m14s] 134.1s - Resetting the target for SkinTemperatureHead to 31.5002, the last target value was 31.8185 
+2026-03-27 19:33 <INFO>  [2m15s] 136s - Resetting the target for TidalVolume to 0.506496, the last target value was 0.509669 
+2026-03-27 19:33 <INFO>  [2m19s] 139.96s - Resetting the target for TidalVolume to 0.503463, the last target value was 0.506496 
+2026-03-27 19:33 <INFO>  [2m20s] Converging System... it took 1.84s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [2m20s] 140.3s - Resetting the target for CoreTemperature to 36.8919, the last target value was 36.9844 
+2026-03-27 19:33 <INFO>  [2m23s] 143.92s - Resetting the target for TidalVolume to 0.498984, the last target value was 0.503463 
+2026-03-27 19:33 <INFO>  [2m24s] 144.32s - Resetting the target for SkinTemperatureTorso to 32.7709, the last target value was 33.102 
+2026-03-27 19:33 <INFO>  [2m27s] 147.88s - Resetting the target for TidalVolume to 0.496649, the last target value was 0.498984 
+2026-03-27 19:33 <INFO>  [2m27s] 147.88s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0400242, the last target value was 0.0399209 
+2026-03-27 19:33 <INFO>  [2m30s] Converging System... it took 1.84s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [2m31s] 151.82s - Resetting the target for SkinTemperatureLeftLeg to 32.2233, the last target value was 32.5488 
+2026-03-27 19:33 <INFO>  [2m31s] 151.82s - Resetting the target for SkinTemperatureRightLeg to 32.2233, the last target value was 32.5488 
+2026-03-27 19:33 <INFO>  [2m31s] 151.84s - Resetting the target for TidalVolume to 0.494509, the last target value was 0.496649 
+2026-03-27 19:33 <INFO>  [2m35s] 155.8s - Resetting the target for TidalVolume to 0.492566, the last target value was 0.494509 
+2026-03-27 19:33 <INFO>  [2m35s] 155.8s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0401331, the last target value was 0.0400242 
+2026-03-27 19:33 <INFO>  [2m39s] 159.76s - Resetting the target for TidalVolume to 0.490812, the last target value was 0.492566 
+2026-03-27 19:33 <INFO>  [2m40s] Converging System... it took 1.89s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [2m43s] 163.72s - Resetting the target for TidalVolume to 0.489243, the last target value was 0.490812 
+2026-03-27 19:33 <INFO>  [2m43s] 163.72s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0402368, the last target value was 0.0401331 
+2026-03-27 19:33 <INFO>  [2m47s] 167.68s - Resetting the target for TidalVolume to 0.487852, the last target value was 0.489243 
+2026-03-27 19:33 <INFO>  [2m50s] Converging System... it took 1.8s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [2m51s] 171.64s - Resetting the target for TidalVolume to 0.486632, the last target value was 0.487852 
+2026-03-27 19:33 <INFO>  [2m51s] 171.64s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0403827, the last target value was 0.0402368 
+2026-03-27 19:33 <INFO>  [2m59s] 179.56s - Resetting the target for TidalVolume to 0.484679, the last target value was 0.486632 
+2026-03-27 19:33 <INFO>  [2m59s] 179.56s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0405447, the last target value was 0.0403827 
+2026-03-27 19:33 <INFO>  [3m0s] Converging System... it took 1.82s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [3m7s] 187.48s - Resetting the target for TidalVolume to 0.483339, the last target value was 0.484679 
+2026-03-27 19:33 <INFO>  [3m7s] 187.48s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0407185, the last target value was 0.0405447 
+2026-03-27 19:33 <INFO>  [3m10s] Converging System... it took 1.82s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [3m12s] 192.9s - Resetting the target for SkinTemperatureTorso to 32.4431, the last target value was 32.7709 
+2026-03-27 19:33 <INFO>  [3m15s] 195.1s - Resetting the target for SkinTemperatureLeftArm to 31.2688, the last target value was 31.5847 
+2026-03-27 19:33 <INFO>  [3m15s] 195.1s - Resetting the target for SkinTemperatureRightArm to 31.2688, the last target value was 31.5847 
+2026-03-27 19:33 <INFO>  [3m15s] 195.4s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0409246, the last target value was 0.0407185 
+2026-03-27 19:33 <INFO>  [3m20s] Converging System... it took 1.83s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [3m20s] 200.78s - Resetting the target for SkinTemperatureHead to 31.1852, the last target value was 31.5002 
+2026-03-27 19:33 <INFO>  [3m20s] 200.96s - Resetting the target for OxygenSaturation to 0.979202, the last target value was 0.981658 
+2026-03-27 19:33 <INFO>  [3m23s] 203.32s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0411141, the last target value was 0.0409246 
+2026-03-27 19:33 <INFO>  [3m27s] 207.28s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0412279, the last target value was 0.0411141 
+2026-03-27 19:33 <INFO>  [3m30s] Converging System... it took 1.89s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [3m31s] 211.24s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0413384, the last target value was 0.0412279 
+2026-03-27 19:33 <INFO>  [3m39s] 219.16s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0415386, the last target value was 0.0413384 
+2026-03-27 19:33 <INFO>  [3m40s] Converging System... it took 1.94s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [3m43s] 223.12s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0416563, the last target value was 0.0415386 
+2026-03-27 19:33 <INFO>  [3m45s] 225.52s - Resetting the target for SkinTemperatureLeftLeg to 31.901, the last target value was 32.2233 
+2026-03-27 19:33 <INFO>  [3m45s] 225.52s - Resetting the target for SkinTemperatureRightLeg to 31.901, the last target value was 32.2233 
+2026-03-27 19:33 <INFO>  [3m50s] Converging System... it took 1.87s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [3m51s] 231.04s - Resetting the target for TidalVolume to 0.484842, the last target value was 0.483339 
+2026-03-27 19:33 <INFO>  [3m51s] 231.04s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0418515, the last target value was 0.0416563 
+2026-03-27 19:33 <INFO>  [3m55s] 235s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0419646, the last target value was 0.0418515 
+2026-03-27 19:33 <INFO>  [3m57s] [Event] 237.76(s),  The patient is shivering 
+2026-03-27 19:33 <INFO>  [3m58s] 238.08s - Resetting the target for CoreTemperature to 36.7997, the last target value was 36.8919 
+2026-03-27 19:33 <INFO>  [3m58s] 238.96s - Resetting the target for TidalVolume to 0.486312, the last target value was 0.484842 
+2026-03-27 19:33 <INFO>  [3m58s] 238.96s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0420716, the last target value was 0.0419646 
+2026-03-27 19:33 <INFO>  [4m0s] Converging System... it took 1.86s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [4m6s] 246.84s - Resetting the target for TidalVolume to 0.488238, the last target value was 0.486312 
+2026-03-27 19:33 <INFO>  [4m6s] 246.84s - Resetting the target for EndTidalCarbonDioxideFraction to 0.04225, the last target value was 0.0420716 
+2026-03-27 19:33 <INFO>  [4m10s] Converging System... it took 1.88s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [4m14s] 254.68s - Resetting the target for TidalVolume to 0.490183, the last target value was 0.488238 
+2026-03-27 19:33 <INFO>  [4m14s] 254.68s - Resetting the target for EndTidalCarbonDioxideFraction to 0.042408, the last target value was 0.04225 
+2026-03-27 19:33 <INFO>  [4m19s] 259.9s - Resetting the target for SkinTemperatureTorso to 32.1186, the last target value was 32.4431 
+2026-03-27 19:33 <INFO>  [4m20s] Converging System... it took 1.93s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [4m22s] 262.48s - Resetting the target for TidalVolume to 0.492201, the last target value was 0.490183 
+2026-03-27 19:33 <INFO>  [4m22s] 262.48s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0425526, the last target value was 0.042408 
+2026-03-27 19:33 <INFO>  [4m30s] 270.24s - Resetting the target for TidalVolume to 0.494295, the last target value was 0.492201 
+2026-03-27 19:33 <INFO>  [4m30s] Converging System... it took 2.01s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [4m34s] 274.1s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0427102, the last target value was 0.0425526 
+2026-03-27 19:33 <INFO>  [4m37s] 277.96s - Resetting the target for TidalVolume to 0.496466, the last target value was 0.494295 
+2026-03-27 19:33 <INFO>  [4m40s] Converging System... it took 1.97s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [4m45s] 285.64s - Resetting the target for TidalVolume to 0.498712, the last target value was 0.496466 
+2026-03-27 19:33 <INFO>  [4m45s] 285.64s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0428329, the last target value was 0.0427102 
+2026-03-27 19:33 <INFO>  [4m50s] Converging System... it took 1.95s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [4m53s] 293.28s - Resetting the target for TidalVolume to 0.501034, the last target value was 0.498712 
+2026-03-27 19:33 <INFO>  [4m55s] 295.96s - Resetting the target for SkinTemperatureLeftArm to 30.9561, the last target value was 31.2688 
+2026-03-27 19:33 <INFO>  [4m55s] 295.96s - Resetting the target for SkinTemperatureRightArm to 30.9561, the last target value was 31.2688 
+2026-03-27 19:33 <INFO>  [5m0s] Converging System... it took 1.87s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [5m0s] 300.88s - Resetting the target for TidalVolume to 0.503441, the last target value was 0.501034 
+2026-03-27 19:33 <INFO>  [5m0s] 300.88s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0429665, the last target value was 0.0428329 
+2026-03-27 19:33 <INFO>  [5m5s] 305.88s - Resetting the target for SkinTemperatureHead to 30.8733, the last target value was 31.1852 
+2026-03-27 19:33 <INFO>  [5m8s] 308.44s - Resetting the target for TidalVolume to 0.505967, the last target value was 0.503441 
+2026-03-27 19:33 <INFO>  [5m10s] Converging System... it took 1.85s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [5m19s] 319.74s - Resetting the target for TidalVolume to 0.508366, the last target value was 0.505967 
+2026-03-27 19:33 <INFO>  [5m20s] Converging System... it took 1.89s to simulate the past 10s 
+2026-03-27 19:33 <INFO>  [5m27s] 327.24s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0430813, the last target value was 0.0429665 
+2026-03-27 19:34 <INFO>  [5m29s] 329.78s - Resetting the target for CoreTemperature to 36.7077, the last target value was 36.7997 
+2026-03-27 19:34 <INFO>  [5m30s] Converging System... it took 1.97s to simulate the past 10s 
+2026-03-27 19:34 <INFO>  [5m30s] 330.98s - Resetting the target for TidalVolume to 0.510932, the last target value was 0.508366 
+2026-03-27 19:34 <INFO>  [5m40s] Converging System... it took 1.88s to simulate the past 10s 
+2026-03-27 19:34 <INFO>  [5m42s] 342.16s - Resetting the target for TidalVolume to 0.513644, the last target value was 0.510932 
+2026-03-27 19:34 <INFO>  [5m46s] 346.14s - Resetting the target for SkinTemperatureLeftLeg to 31.582, the last target value was 31.901 
+2026-03-27 19:34 <INFO>  [5m46s] 346.14s - Resetting the target for SkinTemperatureRightLeg to 31.582, the last target value was 31.901 
+2026-03-27 19:34 <INFO>  [5m50s] Converging System... it took 1.84s to simulate the past 10s 
+2026-03-27 19:34 <INFO>  [6m0s] Converging System... it took 1.88s to simulate the past 10s 
+2026-03-27 19:34 <INFO>  [6m0s] 360.72s - Resetting the target for TidalVolume to 0.516157, the last target value was 0.513644 
+2026-03-27 19:34 <INFO>  [6m4s] 364.64s - Resetting the target for SkinTemperatureTorso to 31.7974, the last target value was 32.1186 
+2026-03-27 19:34 <INFO>  [6m10s] Converging System... it took 1.88s to simulate the past 10s 
+2026-03-27 19:34 <INFO>  [6m19s] 379.22s - Resetting the target for EndTidalCarbonDioxideFraction to 0.0432004, the last target value was 0.0430813 
+2026-03-27 19:34 <INFO>  [6m20s] Converging System... it took 1.87s to simulate the past 10s 
+2026-03-27 19:34 <INFO>  [6m26s] 386.58s - Resetting the target for TidalVolume to 0.518639, the last target value was 0.516157 
+2026-03-27 19:34 <INFO>  [6m30s] Converging System... it took 1.85s to simulate the past 10s 
+2026-03-27 19:34 <INFO>  [6m40s] Converging System... it took 1.85s to simulate the past 10s 
+2026-03-27 19:34 <WARNING>  [6m41s] We have passed required and optional convergence criteria. 
+2026-03-27 19:34 <INFO>  [6m41s] Convergence took 76.6s to simulate 402s to get engine to a steady state 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient heart rate = 72(1/min) 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient diastolic arterial pressure = 74.3486(mmHg) 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient systolic arterial pressure = 114.574(mmHg) 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient mean arterial pressure = 95.7747(mmHg) 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient respiration rate = 16.3043 bpm. 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient tidal volume = 0.518288 L. 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient functional residual capacity = 2.59773 L. 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient vital capacity = 4.62664 L. 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient expiratory reserve volume = 1.05551 L. 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient inspiratory reserve volume = 3.05284 L. 
+2026-03-27 19:34 <INFO>  [6m41s] Initial Stabilization Homeostasis: Patient inspiratory capacity = 3.57113 L. 
+2026-03-27 19:34 <INFO>  [6m41s] Converging feedback to a steady state 
+2026-03-27 19:34 <INFO>  [6m51s] Converging System... it took 1.95s to simulate the past 10s 
+2026-03-27 19:34 <INFO>  [7m1s] Converging System... it took 1.89s to simulate the past 10s 
+2026-03-27 19:34 <INFO>  [7m11s] Converging System... it took 1.91s to simulate the past 10s 
+2026-03-27 19:34 <WARNING>  [7m21s] We have passed required and optional convergence criteria. 
+2026-03-27 19:34 <INFO>  [7m21s] Convergence took 7.62s to simulate 40s to get engine to a steady state 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient heart rate = 72(1/min) 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient diastolic arterial pressure = 74.355(mmHg) 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient systolic arterial pressure = 114.596(mmHg) 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient mean arterial pressure = 95.7839(mmHg) 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient respiration rate = 16.3934 bpm. 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient tidal volume = 0.523084 L. 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient functional residual capacity = 2.59775 L. 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient vital capacity = 4.62664 L. 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient expiratory reserve volume = 1.05554 L. 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient inspiratory reserve volume = 3.04802 L. 
+2026-03-27 19:34 <INFO>  [7m21s] Secondary Stabilization Homeostasis: Patient inspiratory capacity = 3.5711 L. 
+2026-03-27 19:34 <INFO>  [7m21s] Nutrient stores refilled after stabilization 
+2026-03-27 19:34 <INFO>  [7m21s] Finalizing homeostasis 
+2026-03-27 19:34 <INFO>  [7m51s] Engine is now Active 
+2026-03-27 19:34 <INFO>  [0s] Executing Scenario 
+2026-03-27 19:34 <INFO>  [30s] [Action] 30.02(s), Patient Action : Substance Bolus
+	Dose: 20(mL)
+	Concentration: 1000(ug/mL)
+	Substance: Prednisone
+	Administration Route: Intravenous 
+2026-03-27 19:34 <INFO>  [1m0s] Current Time is 60s, it took 12.022s to simulate the past 60s 
+2026-03-27 19:34 <INFO>  [1m59s] Current Time is 120s, it took 11.712s to simulate the past 60s 
+2026-03-27 19:35 <INFO>  [3m0s] Current Time is 180s, it took 11.667s to simulate the past 60s 
+2026-03-27 19:35 <INFO>  [4m0s] Current Time is 240s, it took 11.688s to simulate the past 60s 
+2026-03-27 19:35 <INFO>  [5m0s] Current Time is 300s, it took 11.913s to simulate the past 60s 
+2026-03-27 19:35 <INFO>  [5m59s] Current Time is 360s, it took 11.773s to simulate the past 60s 
+2026-03-27 19:35 <INFO>  [6m59s] Current Time is 420s, it took 12.13s to simulate the past 60s 
+2026-03-27 19:36 <INFO>  [7m59s] Current Time is 480s, it took 13.812s to simulate the past 60s 
+2026-03-27 19:36 <INFO>  [8m50s] It took 107.603s to run this simulation 
