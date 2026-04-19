@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario xmlns="uri:/mil/tatrc/physiology/datamodel"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="uri:/mil/tatrc/physiology/datamodel xsd/BioGearsDataModel.xsd">
+
+  <DataRequests>
+    <DataRequest category="Physiology" property="HeartRate" unit="1/min"/>
+    <DataRequest category="Physiology" property="ArterialPressure" unit="mmHg"/>
+  </DataRequests>
+
+</Scenario>
