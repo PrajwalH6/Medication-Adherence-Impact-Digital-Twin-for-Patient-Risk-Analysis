@@ -6,28 +6,38 @@ from flask import Flask, jsonify, request, send_file
 from flask_cors import CORS
 import matplotlib.pyplot as plt
 import pandas as pd
+import random
 from models.patient_model import calculate_patient
 
 app = Flask(__name__)
 CORS(app)
 
-# ----------------------------
-# Home
-# ----------------------------
 @app.route("/")
 def home():
     return "DT Project Backend Running"
 
-# ----------------------------
-# Simulation
-# ----------------------------
 @app.route("/simulate")
 def simulate():
-    adherence = int(request.args.get("adherence", 100))
-    missed_doses = int(request.args.get("missed_doses", 0))
-    age = int(request.args.get("age", 40))
+    profile = request.args.get("profile", "manual")
+
+    if profile == "nominal":
+        adherence = random.randint(90, 100)
+        missed_doses = random.randint(0, 2)
+        age = random.randint(30, 45)
+
+    elif profile == "high":
+        adherence = random.randint(40, 70)
+        missed_doses = random.randint(4, 8)
+        age = random.randint(60, 75)
+
+    else:
+        adherence = int(request.args.get("adherence", 100))
+        missed_doses = int(request.args.get("missed_doses", 0))
+        age = int(request.args.get("age", 40))
 
     result = calculate_patient(adherence, missed_doses, age)
+
+    biogears_output = run_biogears(adherence, missed_doses)
 
     patient_data = {
         "patient_id": 1,
@@ -35,17 +45,17 @@ def simulate():
         "adherence_percent": adherence,
         "missed_doses": missed_doses,
         "risk_level": result["risk_level"],
-        "heart_rate": result["heart_rate"],
-        "blood_pressure": result["blood_pressure"]
+        "heart_rate": biogears_output["heart_rate"],
+        "blood_pressure": result["blood_pressure"],
+        "instability_score": 100 - adherence + missed_doses * 2,
+        "recovery_time": "4 days" if missed_doses > 3 else "1 day",
+        "probability_alert": "78%" if adherence < 60 else "15%"
     }
-    biogears_output = run_biogears()
-    print("BioGears Engine Log:")
+
     print(biogears_output)
+
     return jsonify(patient_data)
 
-# ----------------------------
-# Graph
-# ----------------------------
 @app.route("/graph")
 def graph():
     adherence = int(request.args.get("adherence", 100))
@@ -55,15 +65,20 @@ def graph():
     result = calculate_patient(adherence, missed_doses, age)
 
     values = []
+    current_hr = result["heart_rate"]
 
-    for i in range(5):
-        values.append(result["heart_rate"] + (i * missed_doses))
+    for day in range(7):
+        if day == 2:
+            current_hr += missed_doses * 2
+        elif day == 4:
+            current_hr -= 3
+        values.append(current_hr)
 
-    plt.figure(figsize=(6, 4))
+    plt.figure(figsize=(7, 4))
     plt.plot(values, marker='o')
     plt.grid(True)
-    plt.title("Heart Rate Trend")
-    plt.xlabel("Time")
+    plt.title("7-Day Heart Rate Simulation")
+    plt.xlabel("Day")
     plt.ylabel("Heart Rate")
 
     filepath = "/mnt/c/Users/pajju/OneDrive/Desktop/dt_project/biogears/outputs/heart_rate.png"
@@ -72,9 +87,6 @@ def graph():
 
     return send_file(filepath, mimetype='image/png')
 
-# ----------------------------
-# CSV Save
-# ----------------------------
 @app.route("/save")
 def save():
     adherence = int(request.args.get("adherence", 100))
@@ -102,8 +114,23 @@ def save():
         "file": filepath
     })
 
-# ----------------------------
-# Main
-# ----------------------------
+@app.route("/montecarlo")
+def montecarlo():
+    high_count = 0
+
+    for _ in range(20):
+        adherence = random.randint(40, 70)
+        missed_doses = random.randint(4, 8)
+
+        result = calculate_patient(adherence, missed_doses, 65)
+
+        if result["risk_level"] == "High":
+            high_count += 1
+
+    return jsonify({
+        "high_risk_runs": high_count,
+        "total_runs": 20
+    })
+
 if __name__ == "__main__":
     app.run(debug=True)

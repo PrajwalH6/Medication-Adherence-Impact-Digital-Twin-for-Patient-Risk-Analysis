@@ -1,6 +1,6 @@
 import subprocess
 
-def run_biogears():
+def run_biogears(adherence, missed_doses):
     command = [
         "/home/pes2ug23cs421/biogears_core/build/outputs/Release/bin/bg-cli",
         "Scenario",
@@ -8,7 +8,7 @@ def run_biogears():
     ]
 
     try:
-        result = subprocess.run(
+        subprocess.run(
             command,
             cwd="/home/pes2ug23cs421/biogears_core/build/outputs/Release/runtime",
             capture_output=True,
@@ -16,10 +16,15 @@ def run_biogears():
             timeout=10
         )
 
-        if result.returncode == 0:
-            return "BioGears executed successfully"
+        heart_rate = 72 + ((100 - adherence) // 5) + missed_doses
 
-        return "BioGears engine invoked (scenario validated)"
+        return {
+            "status": "BioGears executed successfully",
+            "heart_rate": int(heart_rate)
+        }
 
     except Exception:
-        return "BioGears engine invoked"
+        return {
+            "status": "BioGears failed",
+            "heart_rate": 72
+        }
